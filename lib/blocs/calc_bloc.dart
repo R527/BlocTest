@@ -21,6 +21,8 @@ class CalcBloc {
 
   //上部のクラスと名前かぶっていて処理内容がいまいち理解できていない
   CalcBloc() {
+
+    print('blocClass');//→表示されないのでメソッドではない？
     // スタートボタンが押されるのを待つ（ブログのコメント内容で理解してない）
     //Start関数を_startControllerから受け取る？
     _startController.stream.listen((_) => _start());

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'calc_bloc.dart';
 
+export 'calc_bloc.dart';
+
 
 class CalcBlocProvider extends InheritedWidget {
   const CalcBlocProvider({Key? key,required Widget child}) : super(key: key, child: child);
